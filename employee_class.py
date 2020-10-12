@@ -29,4 +29,4 @@ class NewEmployee:
         result = False
         if re.fullmatch("^[a-z0-9]+@+[a-z0-9]+[.][a-z]+", email) is not None:
             result = True
-        return  result
+        return result
